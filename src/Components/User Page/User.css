@@ -1,0 +1,27 @@
+.username{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    font-size: 1.5rem;
+    font-weight: 500;
+    background-color: rgb(160, 220, 215);
+
+}
+
+#user{
+    font-size: 1.1rem;
+    padding: 7px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.error{
+    width: 230px;
+    text-align: left;
+    font-size: .9rem;
+    color: red;
+    margin-bottom: 50px;
+}
+

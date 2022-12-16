@@ -1,0 +1,68 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    background-color: rgb(96, 23, 11);
+    color: white;
+    font-size: 3vw;
+    padding: 10px;
+    box-shadow: 0px 1px 5px rgb(106, 226, 226);
+    font-family: 'Times New Roman';
+    font-weight: bold;
+}
+
+.logout {
+    display: flex;
+    justify-content: right;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+
+.logout button {
+    font-size: 1.2rem;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+}
+
+.logout button:hover {
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.addtopic {
+    border: 2px solid black;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 10px;
+    color: rgb(82, 21, 12);
+}
+
+.addtopic:hover {
+    cursor: pointer;
+}
+
+.topic-container {
+    border: 3px solid black;
+    margin: 20px;
+    padding: 10px 100px;
+    border-radius: 10px;
+}
+
+.item {
+    font-size: 1.3rem;
+}
+
+.item:hover{
+    cursor: pointer;
+}

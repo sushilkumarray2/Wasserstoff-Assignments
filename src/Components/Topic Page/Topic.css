@@ -1,0 +1,52 @@
+span {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#topic_name {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 1.2rem;
+}
+
+.text_area {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 1rem;
+    background-color: white;
+    margin-top: 20px;
+}
+
+#textArea
+{
+  display: flex;
+  justify-content: center;
+}
+
+.save {
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border: none;
+    background-color: rgb(43, 116, 226);
+    color: white;
+    border-radius: 5px;
+}
+
+.save:hover {
+    cursor: pointer;
+}
+
+.id4{
+    color:green;
+}
+.id3{
+    color:yellow;
+}
+.id2{
+    color:cyan;
+}
+.id1{
+    color:red;
+}
